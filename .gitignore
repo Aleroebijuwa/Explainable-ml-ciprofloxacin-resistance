@@ -1,0 +1,26 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Raw sequencing data and intermediate files (too large for git)
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.bam
+*.bai
+*.sam
+*.vcf
+*.vcf.gz
+raw_reads/
+work/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/

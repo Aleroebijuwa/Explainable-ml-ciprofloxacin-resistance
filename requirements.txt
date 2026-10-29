@@ -1,4 +1,4 @@
-# Local analysis (notebooks 01, 03, 04). Notebook 02 installs its own tools in Google Colab.
+# Local analysis (ecoli_ciprofloxacin_resistance.ipynb). Feature extraction (aws/) installs its own tools via aws/setup.sh.
 numpy==1.26.4
 pandas==2.2.2
 scipy

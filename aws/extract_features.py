@@ -1,8 +1,7 @@
 """Genomic feature extraction for the AMR_ciprofloxacin isolates (command-line version).
 
-Same method and settings as 02_feature_extraction_colab.ipynb, packaged to run unattended on
-a Linux server such as AWS EC2. For each isolate a subset of reads is streamed from the
-European Nucleotide Archive (ENA) and three kinds of features are extracted:
+Runs unattended on a Linux server such as AWS EC2. For each isolate a subset of reads is
+streamed from the European Nucleotide Archive (ENA) and three kinds of features are extracted:
 
   - amino-acid substitutions in gyrA, gyrB, parC, parE, marR, acrR and soxR
     (BWA-MEM against E. coli K-12 MG1655, K-12 numbering)
